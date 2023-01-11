@@ -8,7 +8,7 @@ Contains raw and processed route data and user data produced by the code in the 
 - `routedata.jl`: Information on each route page, produced by the scraper. <br/>
 - `userdata_filter.json`: User tick data for the subset of users with more than 100 ticks. This is produced by the notebook `Preprocess_FilterUsers` given the 
 entire (~1.8 GB) `userdata.jl` file produced by the scraper. <br/>
-- 'userdata_formatted.json`: Features and target variable for tick progression regression model, produced by the notebook `Preprocess_UserProgression` <br/>
+- `userdata_formatted.json`: Features and target variable for tick progression regression model, produced by the notebook `Preprocess_UserProgression` <br/>
 
 #### Notebooks <br/>
 Contains Jupyter notebooks for analysis and model building. They are as follows: <br/>
