@@ -1,4 +1,4 @@
-# MountainProject-Data-Science
+# MountainProject-Database-Analysis
 
 This repository contains data scraped from Mountainproject.com and code used for analytics and model building. <br/>
 The repository contains 3 directories:<br/>
