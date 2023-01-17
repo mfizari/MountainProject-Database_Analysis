@@ -16,3 +16,10 @@ Contains Jupyter notebooks for analysis and model building. They are as follows:
 - `Preprocess_FilterUsers`: Filters large `userdata.jl` file by tick number and outputs new file as above. <br/>
 - `Preprocess_UserProgression`: Reduces user data into a set of summary statistics for each user's tick log (progression correlation, fraction of each style climbed, demographic information, etc) and outputs new file as above. <br/>
 - `GradeProgression_LightGBM_model:`: Builds a regression model using LightGBM and hyperparameter optimization using optuna, explains model using SHAP values. 
+
+## Route database analysis
+
+
+
+
+
