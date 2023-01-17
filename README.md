@@ -18,8 +18,9 @@ Contains Jupyter notebooks for analysis and model building and a directory for f
 - `GradeProgression_LightGBM_model:`: Builds a regression model using LightGBM and hyperparameter optimization using optuna, explains model using SHAP values. 
 
 ## Route database analysis
+There are a lot of analytics you can do on the data scraped from MountainProject. One thing I was interested in investigating was how the relative prevelance of different types of routes in the US has changed with time. I looked at the data and found that bouldering has been becoming increasingly popular over the last decade, and now the majority of routes on MountainProject are boulders. The data is visualized in a Tableau dashboard: 
 
-
+![alt text](https://github.com/mfizari/MountainProject-Database_Analysis/blob/main/Notebooks/Figures/Growth%20of%20bouldering%20on%20MP.svg)
 
 
 
