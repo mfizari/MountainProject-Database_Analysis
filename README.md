@@ -21,16 +21,17 @@ Contains Jupyter notebooks for analysis and model building and a directory for f
 ## Progression modeling: What you should do in order to get better at climbing
 The results of the regression model for consistency of progression (found in `GradeProgression_LightGBM_model`) can help us inform users on ways they might be able to improve their progression. Our suggestions should be guided by the importance of each feature and it's directionality on the output. First, we'll use SHAP values to visualize the strength and directionality of each feature's influence on our model output:
 
-![alt text](https://github.com/mfizari/MountainProject-Database_Analysis/blob/main/Notebooks/Figures/beeswarm.svg)
+![alt text](https://github.com/mfizari/MountainProject-Database_Analysis/blob/main/Notebooks/Figures/beeswarm.png)
 
 We see that indicators of a climber's tendency to push themselves (redpointing, falling, bouldering) increase the strength of progression. Additionally, features relating to climber's volume of climbing (FractionDaysClimbing, NumberTicks) increase progression, but AccountAge does not, confirming the old adage - "it's not the years, it's the mileage". The relative importance of the different types of features are shown below:
 
-![alt text](https://github.com/mfizari/MountainProject-Database_Analysis/blob/main/Notebooks/Figures/importance.svg)
+![alt text](https://github.com/mfizari/MountainProject-Database_Analysis/blob/main/Notebooks/Figures/importance.png)
 
 Lastly, the SHAP dependence plots indicate that many of the relationships are nonlinear, which affects the suggestions we make for improvement. For example, the output dependence on type features and style features:
 
-![alt text](https://github.com/mfizari/MountainProject-Database_Analysis/blob/main/Notebooks/Figures/Type_SHAP.svg)
-![alt text](https://github.com/mfizari/MountainProject-Database_Analysis/blob/main/Notebooks/Figures/Style_SHAP.svg)
+
+![alt text](https://github.com/mfizari/MountainProject-Database_Analysis/blob/main/Notebooks/Figures/dependency.png)
+
 
 ## Route database analysis
 There are a lot of analytics that can be done on route and user data scraped from MountainProject. One thing I was interested in investigating was how the relative prevelance of different types of routes in the US has changed with time. I looked at the data and found that bouldering has been becoming increasingly popular over the last decade (with a large surge during the first year of COVID), and now the majority of routes on MountainProject are boulders. The data is visualized in a static Tableau dashboard: 
