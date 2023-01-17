@@ -1,7 +1,7 @@
 # MountainProject-Database-Analysis
 
 This repository contains data scraped from Mountainproject.com and code used for analytics and model building. <br/>
-The repository contains 3 directories:<br/>
+The repository contains a directory for figures and 2 others:<br/>
 
 #### Data <br/>
 Contains raw and processed route data and user data produced by the code in the `MountainProject-Scraper` repository. There are 3 files: <br/>
