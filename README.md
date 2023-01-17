@@ -30,7 +30,7 @@ We see that indicators of a climber's tendency to push themselves (redpointing, 
 Lastly, the SHAP dependence plots indicate that many of the relationships are nonlinear, which affects the suggestions we make for improvement. For example, the output dependence on type features and style features:
 
 
-![alt text](https://github.com/mfizari/MountainProject-Database_Analysis/blob/main/Notebooks/Figures/depen.png)
+![alt text](https://github.com/mfizari/MountainProject-Database_Analysis/blob/main/Notebooks/Figures/Style_SHAP.svg)
 
 
 ## Route database analysis
