@@ -36,6 +36,6 @@ Lastly, the SHAP dependence plots indicate that many of the relationships are no
 ## Route database analysis
 There are a lot of analytics that can be done on route and user data scraped from MountainProject. One thing I was interested in investigating was how the relative prevelance of different types of routes in the US has changed with time. I looked at the data and found that bouldering has been becoming increasingly popular over the last decade (with a large surge during the first year of COVID), and now the majority of routes on MountainProject are boulders. The data is visualized in a static Tableau dashboard: 
 
-![alt text](https://github.com/mfizari/MountainProject-Database_Analysis/blob/main/Notebooks/Figures/bitmap.svg)
+![alt text](https://github.com/mfizari/MountainProject-Database_Analysis/blob/main/Notebooks/Figures/BoulderGrowth.svg)
 
 
